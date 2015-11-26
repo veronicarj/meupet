@@ -9,9 +9,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 
 /**
  * @author veronica
@@ -22,10 +19,7 @@ public class Meupet_Activity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.login_activity);
-		
-		Button btnCancelar = (Button) findViewById(R.id.btnCancelar);
-		btnCancelar.setOnClickListener(onClickSair());
+		setContentView(R.layout.meupet_activity);
 		
 		ActionBar actionBar = getActionBar();
 	    actionBar.setTitle("Voltar");
@@ -50,22 +44,12 @@ public class Meupet_Activity extends Activity {
 	    	finish();
 	        return true;
 	    case R.id.action_info:
+	    	setContentView(R.layout.sobre_activity);
 	        return true;
 	    }
 
 		return super.onOptionsItemSelected(item);
 	}	
 	//Fim ActionBar		
-
-	private OnClickListener onClickSair() {
-		return new OnClickListener(){
-
-			@Override
-			public void onClick(View v) {
-				finish(); //fechando a tela atual
-			}
-			
-		};
-	}
 
 }

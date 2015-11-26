@@ -18,7 +18,7 @@
 
    <EditText
        	android:id="@+id/txtEmail"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:inputType="textEmailAddress"
@@ -27,7 +27,7 @@
 
    <EditText
        	android:id="@+id/txtSenha"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:inputType="textPassword"
@@ -44,7 +44,8 @@
         android:id="@+id/btnEntrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"     
-        android:text="@string/btnEntrar"  />
+        android:text="@string/btnEntrar"
+        android:onClick="Logar"  />
   
   <Button 
         android:id="@+id/btnCancelar"

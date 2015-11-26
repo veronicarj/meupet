@@ -9,31 +9,25 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 
 /**
  * @author veronica
  *
  */
-public class Servico_Activity extends Activity {
+public class Sobre_Activity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.servico_activity);
-		
-		Button btnCancelar = (Button) findViewById(R.id.btnCancelar);
-		btnCancelar.setOnClickListener(onClickCancelar());
+		setContentView(R.layout.sobre_activity);
 
 		ActionBar actionBar = getActionBar();
 	    actionBar.setTitle("Voltar");
 	    actionBar.setSubtitle("Meu Pet - Serviços de Banho & Tosa");
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		
-	}	
-
+	}
+	
 	//ActionBar	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -48,26 +42,12 @@ public class Servico_Activity extends Activity {
 		
 		switch (id) {
 	    case android.R.id.home:
-	    	finish();
-	        return true;
-	    case R.id.action_info:
-	    	setContentView(R.layout.sobre_activity);
+	    	setContentView(R.layout.activity_principal);
 	        return true;
 	    }
 
 		return super.onOptionsItemSelected(item);
 	}	
 	//Fim ActionBar		
-	
-	private OnClickListener onClickCancelar() {
-		return new OnClickListener(){
-
-			@Override
-			public void onClick(View v) {
-				finish(); //fechando a tela atual
-			}
-			
-		};
-	}
 
 }

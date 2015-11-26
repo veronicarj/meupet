@@ -49,6 +49,7 @@ public class Contato_Activity extends Activity{
 	    	finish();
 	        return true;
 	    case R.id.action_info:
+	    	setContentView(R.layout.sobre_activity);
 	        return true;
 	    }
 

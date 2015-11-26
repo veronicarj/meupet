@@ -47,7 +47,8 @@ public class PrincipalActivity extends Activity {
 		
 		switch (id) {
 	    case R.id.action_info:
-	        return true;
+	    	setContentView(R.layout.sobre_activity);
+	        return true;      
 	    }
 		
 		return super.onOptionsItemSelected(item);
@@ -61,7 +62,7 @@ public class PrincipalActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 
-				Intent intent = new Intent(getBaseContext(),Servico_Activity.class);
+				Intent intent = new Intent(getBaseContext(),Login_Activity.class);
 				startActivity(intent);
 			}
 		};
@@ -72,7 +73,7 @@ public class PrincipalActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(getBaseContext(),Meupet_Activity.class);
+				Intent intent = new Intent(getBaseContext(),Login_Activity.class);
 				startActivity(intent); //iniciando a tela Meu Pet
 			}
 		};
@@ -89,7 +90,6 @@ public class PrincipalActivity extends Activity {
 				startActivity(intent);
 			}
 		};
-	}
-	
+	}	
 		
 }

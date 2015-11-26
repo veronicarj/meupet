@@ -19,7 +19,35 @@
     <string name="btnAgendar">Agendar</string>
     <string name="btnConfirmar">Confirmar</string>
     
-    <string name="chkHidratacao">Hidratação</string>
+    <string name="txtHidratacao">Hidratação</string>
+    <string name="radSimples">Simples</string>
+    <string name="radLuxo">Luxo</string>
+    <string name="chkPerfume">Perfume</string>
+    <string name="txtEntregar">Entregar em casa</string>
+    
+    <string name="txtHorarios">Horários Disponíveis</string>
+    <string name="spHorarios">Horários Disponíveis</string>
+
+    <string-array name="horarios_array">
+        <item>Selecione um Horário</item>
+        <item>26/10 - 15:00</item>
+        <item>26/10 - 16:00</item>
+        <item>26/10 - 17:00</item>
+        <item>27/10 - 09:00</item>
+        <item>27/10 - 10:00</item>
+        <item>28/10 - 08:00</item>
+    </string-array>      
+
+    <string name="txtPets">Animal</string>    
+    
+    <string-array name="pets_array">
+        <item>Selecione o Pet</item>
+        <item>Byte</item>
+        <item>Pixel</item>
+        <item>Zap</item>
+    </string-array>    
+    
+    <string name="txtServicos">Serviço</string>
     
     <string-array name="servicos_array">
         <item>Selecione o Serviço</item>
@@ -27,9 +55,11 @@
         <item>Banho e Tosa</item>
         <item>Tosa</item>
         <item>Tosa Higienica</item>
-        <item>Hospedagem</item>
     </string-array>
      
+    <string name="txtCao">Meu nome é Byte, tenho 3 meses de idade. Minha dona cuida muito bem de mim, ela já me deu todas as vacinas. Brinca comigo e sinto falta dela quando ela sai para trabalhar!</string>
     <string name="txtTelefone">99609-3767</string>
+    <string name="txtSobre">Este aplicativo visa aplicar os conhecimentos de FrontEnd aprendidos na disciplina de Desenvolvimento de Dispositivos Móveis ministrado pelo prof Bruno Penha, UCAM. Desenvolvido por Verônica Campos</string>
+    <string name="txtDesenvolvedor">Verônica Campos</string>
     
 </resources>

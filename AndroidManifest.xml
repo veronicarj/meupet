@@ -15,8 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".Login_Activity"></activity>
         <activity android:name=".Servico_Activity"/>
         <activity android:name=".Meupet_Activity"/>
         <activity android:name=".Contato_Activity"/>
+        <activity android:name=".Sobre_Activity"/>
     </application>
 </manifest>
