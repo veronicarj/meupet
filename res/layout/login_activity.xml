@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_fundolight"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp" >
+    
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_login" 
+        android:contentDescription="@string/imgLogin"/>
+
+   <EditText
+       	android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:inputType="textEmailAddress"
+        android:labelFor="@+id/txtEmail"
+        android:hint="@string/txtEmailHint" />
+
+   <EditText
+       	android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:inputType="textPassword"
+        android:labelFor="@+id/txtSenha"
+        android:hint="@string/txtSenhaHint" />
+   
+   <LinearLayout
+   		android:orientation="horizontal"
+   		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center">
+   
+  <Button 
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/btnEntrar"  />
+  
+  <Button 
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"           
+        android:text="@string/btnCancelar"  />  
+       
+   </LinearLayout>
+
+
+</LinearLayout>

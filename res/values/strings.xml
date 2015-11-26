@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeuPet</string>
+    <string name="action_info">Sobre</string>
+    
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnServicos">Serviços</string>    
+    <string name="btnMeuPet">Meu Pet</string>
+    <string name="btnContato">Contato</string>   
+    
+    <string name="imgLogin">Login</string>
+    <string name="txtEmailHint">Digite o E-mail</string>
+    <string name="txtSenhaHint">Digite a senha</string>
+
+    
+    <string name="txtNomePetHint">Digite o nome do Pet</string>
+    <string name="btnAgendar">Agendar</string>
+    <string name="btnConfirmar">Confirmar</string>
+    
+    <string name="chkHidratacao">Hidratação</string>
+    
+    <string-array name="servicos_array">
+        <item>Selecione o Serviço</item>
+        <item>Banho</item>
+        <item>Banho e Tosa</item>
+        <item>Tosa</item>
+        <item>Tosa Higienica</item>
+        <item>Hospedagem</item>
+    </string-array>
+     
+    <string name="txtTelefone">99609-3767</string>
+    
+</resources>
